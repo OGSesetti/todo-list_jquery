@@ -1,0 +1,31 @@
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+body {
+    text-align: center;
+
+}
+
+li {
+    text-align: left;
+}
+
+button {
+    position: right;
+}
+
+#nukeButton {
+    position: absolute;
+    bottom: 0px;
+
+}
+
+#theList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+}
