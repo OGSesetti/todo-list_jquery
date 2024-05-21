@@ -1,11 +1,13 @@
 .completed {
     text-decoration: line-through;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 body {
     text-align: center;
-
+    background-color: rgb(0, 155, 103);
+    color: #ffffff;
+    font-size: large;
 }
 
 li {
@@ -14,6 +16,9 @@ li {
 
 button {
     position: right;
+    border-color: #ffffff;
+    color: rgb(0, 155, 103);
+    background-color: #ffffff;
 }
 
 #nukeButton {
